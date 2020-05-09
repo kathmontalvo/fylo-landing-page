@@ -74,6 +74,10 @@ header .menu ul li a {
   font-size: 14px;
 }
 
+header .menu ul li a:hover {
+  color: var(--color-primary-saturated);
+}
+
 @media all and (min-width: 768px) {
   header .menu ul li {
     margin-left: 45px;
@@ -104,6 +108,10 @@ header .menu ul li a {
 
 .banner__image img {
   width: 100%;
+  transition: all 1s ease;
+}
+.banner__image img:hover {
+  transform: scale(1.2,1.2);
 }
 
 .banner__form {
@@ -116,6 +124,11 @@ header .menu ul li a {
   font-size: 27px;
   line-height: 40px;
   font-weight: bolder;
+  transition: all 0.8s ease;
+}
+
+.banner__form h2:hover {
+  color: var(--color-primary-saturated);
 }
 
 .banner__form p {
@@ -156,6 +169,12 @@ header .menu ul li a {
   padding: 10px 0;
   border-radius: 5px;
   margin-bottom: 16px;
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+
+.banner__form form .btn:hover{
+  background-color: var(--color-primary-saturated);
 }
 
 @media all and (min-width: 768px) {
@@ -225,6 +244,11 @@ header .menu ul li a {
 
 .how-to .how-to__image img {
   width: 100%;
+  transition: all 0.8s ease;
+}
+
+.how-to .how-to__image img:hover {
+  transform: scale(1.2,1.2);
 }
 
 .how-to .how-to__text {
@@ -246,6 +270,11 @@ header .menu ul li a {
   padding-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  transition: all 0.8s ease;
+}
+
+.how-to .how-to__text .how-to__text--info h3:hover {
+  color: var(--color-primary-saturated);
 }
 
 .how-to .how-to__text .how-to__text--info p {
@@ -263,6 +292,12 @@ header .menu ul li a {
   border-bottom: 1px solid var(--color-accent-moderate);
   margin-bottom: 30px;
   padding-bottom: 8px;
+  transition: all 0.8s ease;
+}
+
+.how-to .how-to__text .how-to__text--info a:hover {
+  border-bottom: 1px solid var(--color-accent-bright);
+  color: var(--color-accent-bright);
 }
 
 .how-to .how-to__text .how-to__text--card {
@@ -270,9 +305,13 @@ header .menu ul li a {
   background-color: white;
   padding: 28px;
   margin-bottom: 50px;
-  /* margin: auto; */
   border-radius: 5px;
   box-shadow: 0px 2px 15px var(--color-neutral-light-gray);
+  transition: all 0.8s ease;
+}
+
+.how-to .how-to__text .how-to__text--card:hover{
+  transform: scale(1.05, 1.05);
 }
 
 .how-to .how-to__text .how-to__text--card > p{
@@ -402,6 +441,12 @@ header .menu ul li a {
   padding: 10px 0;
   border-radius: 5px;
   margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+.access__form form .btn:hover{
+  background-color: var(--color-primary-dark);
 }
 
 @media all and (min-width: 768px) {
@@ -466,9 +511,10 @@ header .menu ul li a {
     padding: 12px 0;
   }
 
-  footer .business .icon-text img, footer .business .icon-text p {
+  footer .business .icon-text img, footer .business .icon-text p, footer .business .icon-text p a {
     display: inline;
     margin-right: 15px;
+    color: white;
   }
 
   footer .footer-list {
@@ -498,9 +544,8 @@ header .menu ul li a {
   footer .social i {
     margin: 0 15px;
     font-size: 24px;
-    /* border: 1px solid white; */
     padding: 5px;
-    /* border-radius: 50%; */
+    cursor: pointer;
   }
 
   @media all and (min-width: 768px) {
