@@ -46,7 +46,7 @@ Como mencioné, en la página "Front end mentors" encontré el prototipo que a s
 
 ## Página web online en la plataforma Surge.sh
 
-Finalmente, pueden encontrar mi proyecto en el siguiente enlace: http://polite-lunchroom.surge.sh 
+Finalmente, pueden encontrar mi proyecto en el siguiente enlace: https://lonely-straw.surge.sh/
 
 -----------
 
